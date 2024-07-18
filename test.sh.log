@@ -1952,3 +1952,6 @@ Running test with user alan
 Test of assignment  complete with success
 ./full-test.sh: line 26: conf/assignment.txt: Permission denied
 Running test with user alan
+Running test with user alan
+Running test with user alan
+Pass
