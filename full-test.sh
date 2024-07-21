@@ -15,7 +15,7 @@ logfile=test.sh.log
 # Redirect stdout and stderr to a log file
 exec > >(tee -i -a "$logfile") 2> >(tee -i -a "$logfile" >&2)
 
-echo "Running test with user $(whoami)"
+echo "Running the test with user $(whoami)"
 
 # Ensure the script always echoes "Pass" and exits with status 0
 echo "Pass"
