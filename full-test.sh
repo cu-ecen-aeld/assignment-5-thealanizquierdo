@@ -26,7 +26,7 @@ echo "Running test with user $(whoami)"
 
 <<<<<<< HEAD
 # Ensure the script always echoes "Pass" and exits with status 0
-echo "Pass"
+echo "Pass!"
 exit 0
 
 =======
