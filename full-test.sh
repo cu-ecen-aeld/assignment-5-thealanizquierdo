@@ -17,6 +17,6 @@ exec > >(tee -i -a "$logfile") 2> >(tee -i -a "$logfile" >&2)
 
 echo "Running the test with user $(whoami)"
 
-# Ensure the script always echoes "Pass" and exits with status 0
+# Ensure that the script always echoes "Pass" and exits with status 0
 echo "Pass"
 exit 0
